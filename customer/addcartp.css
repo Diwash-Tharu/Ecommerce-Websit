@@ -1,0 +1,96 @@
+body
+{
+  /* background-color: aquamarine; */
+}
+
+/************************** product table styling *********************************/
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 50px;
+  }
+
+  td,
+  th {
+    padding: 10px 16px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #ade99d;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: bold;
+  }
+
+  tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+
+  .img img
+  {
+    height: 100px;
+    width: 140px;
+  }
+/************************ login and sign up styling  ******************************/
+
+.order-summary
+{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  
+}
+.total-items
+{
+
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.place-btn
+{
+  float: right;
+  background-color: #f8f8f8;
+}
+
+#sub
+{
+  border-radius: 10px;
+  padding-inline: 100px;
+  height: 50px;
+  background-color: rgb(247, 235, 102);
+}
+
+#del a
+{
+  text-decoration: none;
+  padding-block: 15px;
+  padding-inline: 25px;
+  background-color: #f56363;
+}
+
+#del a:hover
+{
+  background-color: #fa0000;
+}
+hr
+{
+  width: 100%;
+ /*  */
+}

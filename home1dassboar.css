@@ -1,0 +1,364 @@
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(190, 93, 93);
+}
+
+/* .butt .s .dot
+{
+    display: none;
+    background-color: #000;
+} */
+
+/* Nav-bar ko color yetta bataw change vako cha */
+.navbar {
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+.slideshow-container {
+    max-width: auto;
+    position: relative;
+    /* margin: auto; */
+    /* height: 900px; */
+    /* max-height: 900px; */
+    /* margin-top: px; */
+    /* padding-top: 50px; */
+    /* padding-top: 30px ; */
+}
+
+.allColor {
+    background-color: #eaeaea;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* background-color: #f1f1f1; */
+}
+
+.nav li a {
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: #e7e3e3;
+    color: #ff6138;
+    /* color: white; */
+}
+
+/* //button in the middle */
+.but .button {
+    background-color: #dedede;
+    /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.but .button2 {
+    box-shadow: 0 8px 16px 0 #e5ceb5,
+        0 6px 20px 0 #e5ceb5;
+}
+
+/* .but .button2:hover {
+    box-shadow: 0 12px 16px 0 #e7f8ce,
+        0 17px 50px 0 #e7f8ce;
+} */
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav textarea {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 195, 195);
+    border: none;
+}
+
+#div {
+    margin: 60px;
+
+    text-align: center;
+    background-color: #36b560;
+    padding: 5px;
+    padding-block: 10px;
+    width: 150px;
+}
+
+.shopitems {
+    /* padding-top: 100px; */
+    /* background-color: rgb(237, 97, 37); */
+    /* background-color: aqua; */
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: center;
+    width: auto;
+    gap: 2rem;
+    justify-content: space-between;
+
+    /* align-content: end; */
+
+}
+
+.card_info img {
+
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.card_info {
+
+
+    padding: 0.8rem;
+    width: 300px;
+    background-color: #FEFBF3;
+    transition: 1.2s;
+}
+
+.card_info:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px 2px #717171;
+    cursor: pointer;
+
+    /* background-color: rgb(1, 22, 3); */
+}
+
+.card-details {
+
+    /* background-color: rgb(238, 238, 238); */
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* gap:0.5rem; */
+    width: 100%;
+    text-align: center;
+    color: #000000;
+
+}
+
+#underline {
+    text-decoration: none;
+}
+
+#pound {
+    color: #bbb;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#edit,
+#delete {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    /* padding-inline: 2rem; */
+    border-radius: 5px;
+    background-color: rgb(72, 234, 57);
+}
+
+#delete {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    /* padding-inline: 2rem; */
+    border-radius: 5px;
+    background-color: rgb(246, 49, 49);
+}
+
+
+.more {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* background-color: rgb(237, 97, 37); */
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: end;
+    text-decoration: none;
+
+}
+
+.more a {
+    text-decoration: none;
+    color: #000;
+}
+
+.shopitems::-webkit-scrollbar {
+    display: none;
+}
+
+.shopitems {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.set {
+    /* background-color: #000; /
+    display: flex;
+    justify-items: start;
+    / margin-top: 20px; /
+    / width:100px ; */
+    color: rgb(119, 118, 118);
+    margin-bottom: -30px;
+}
+
+.dis {
+    position: relative;
+    left: 100px;
+    top: 12px;
+    color: #54d22e;
+    /* background-color: #d30808; */
+    margin-top: -10px;
+}
+
+/* .amount
+{
+background-color: red;
+}  */
+#message {
+    /* / background-color: #000; */
+     margin-top: -40px;
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+    left: 0px;
+    font-weight: bold;
+    color: red;
+    /* background-color: red; */
+}
+
+#dec {
+    text-decoration: none;
+
+}
+
+.no {
+    display: none;
+}
+
+.amount {
+    margin-bottom: 10px;
+    color: #54d22e;
+}
+
+.image1 {
+    margin-right: -15px;
+    border-radius: 20px;
+}
+
+.image2 {
+    margin-left: -15px;
+    border-radius: 20px;
+}
+
+.button {
+    background-color: antiquewhite;
+}
+.logo img
+{
+    
+    border: #21bd54;
+    height: 100px;
+    width: 90px;
+    position:relative;
+    top: -70px;
+    margin-bottom: -50px;
+}

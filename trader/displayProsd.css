@@ -1,0 +1,95 @@
+
+
+.text_name
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+.all
+{
+    width: 100%;
+    margin-inline: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    gap: 2rem;
+}
+
+.card_info img
+{
+
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+}
+.card_info .img
+{
+    width: 250px;
+    
+}
+.card_info
+{
+
+    padding: 1rem;
+    width: 300px;
+    min-width: 300px;
+    background-color: rgb(241, 242, 240);
+}
+
+.shopitems
+{
+    /* padding-top: 100px; */
+    /* background-color: rgb(237, 97, 37); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+   
+    align-content: end;
+
+}
+.card-details
+{
+    
+    /* background-color: rgb(238, 238, 238); */
+    display: flex;
+    flex-direction: column;
+    /* gap:0.5rem; */
+    width: 100%;
+    text-align: center;
+
+}
+
+.btns
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#edit, #delete
+{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    /* padding-inline: 2rem; */
+    border-radius: 5px;
+    background-color: rgb(72, 234, 57);
+}
+
+#delete
+{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    /* padding-inline: 2rem; */
+    border-radius: 5px;
+    background-color: rgb(246, 49, 49); 
+}

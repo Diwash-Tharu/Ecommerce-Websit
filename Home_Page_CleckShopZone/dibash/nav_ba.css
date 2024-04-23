@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: ;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f5fdf3;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+
+  float: right;
+
+
+
+
+}
+
+
+.d {
+  float: right;
+  padding: 6px 10px;
+  margin-top: -20px;
+
+}
+
+.topnav input[type=text] {
+  width: 500px;
+  height: 28px;
+  border-radius: 4px;
+  position: relative;
+  left: -600px;
+  top: 20px;
+  margin-bottom: -10px;
+}
+
+.topnav .search-container button {
+
+  position: relative;
+  left: -98px;
+  top: -4px;
+  padding: 6px 10px;
+  background: #96ED89;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #96ED89;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+  /* .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+*/
+  .topnav a,
+  .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .topnav input[type=text] {
+    /*    border: 1px solid #ccc;  */
+    border-radius: 5px;
+
+  }
+}
+
+
+/*// for horizontal nav bar*/
+
+.nav_vert ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.nav_vert li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav_vert li a.active {
+  background-color: #96ED89;
+  color: white;
+}
+
+.nav_vert li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.but {
+  /* display: flex;
+  align-content: center;
+  align-items: center;*/
+
+  position: relative;
+  left: 600px;
+  top: -200px;
+
+
+}
+
+.but input {
+  width: 200px;
+  height: 30px;
+
+}
+
+.row {
+
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  gap: 20px;
+}

@@ -1,0 +1,21 @@
+.text input
+{
+    text-align: left;
+    width: 800px; 
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container
+{
+    margin-top: 100px;
+    margin-left: -100px;
+    background-color: aqua;
+}
+
+#rev
+{
+    background-color: rgb(88, 93, 245);
+}
